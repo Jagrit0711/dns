@@ -33,6 +33,11 @@
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
       - yandex-verification=befd33a8f4f21226
+1or0:
+  - ttl: 3600
+    type: CNAME
+    value: 1or0.vercel.app.
+
 slashz:
   - ttl: 600
     type: CNAME
@@ -410,10 +415,6 @@ _vercel:
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
-1or0:
-  - ttl: 3600
-    type: CNAME
-    value: 1or0.vercel.app.
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
